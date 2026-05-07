@@ -3,6 +3,13 @@
 这个仓库会通过 GitHub Actions 生成 4 个可内嵌在单行文本里的
 纯数字 SVG：
 
+<p>
+  <img alt="Repos" src="./badges/repos.svg">
+  <img alt="Stars" src="./badges/stars.svg">
+  <img alt="Forks" src="./badges/forks.svg">
+  <img alt="Commits" src="./badges/commits.svg">
+</p>
+
 - `badges/repos.svg`：当前 GitHub 用户拥有的 repo 数量，包括 private repo
 - `badges/stars.svg`：当前 GitHub 用户所有 repo 的 star 总数
 - `badges/forks.svg`：当前 GitHub 用户所有 repo 的 fork 总数
