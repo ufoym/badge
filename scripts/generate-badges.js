@@ -128,10 +128,9 @@ function renderNumberSvg(value) {
 
   return [
     '<svg xmlns="http://www.w3.org/2000/svg"',
-    ` width="${width}" height="20"`,
+    ` width="${width}" height="16"`,
     ` role="img" aria-label="${text}">`,
-    `<rect width="${width}" height="20" rx="3" fill="#555"/>`,
-    `<text x="${center}" y="14" text-anchor="middle" fill="#fff"`,
+    `<text x="${center}" y="12" text-anchor="middle" fill="#666"`,
     ' font-family="Verdana,Geneva,sans-serif" font-size="11">',
     text,
     '</text></svg>',
